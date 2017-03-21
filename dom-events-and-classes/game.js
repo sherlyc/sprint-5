@@ -39,6 +39,7 @@ function hide (evt){
   updateCounts();
 }
 
+//This function will remove any existing blue,green,invisible classname so that the count will work correctly.
 function resetClass (evt){
     if (evt.target.classList.contains('green')) {
       evt.target.classList.remove('green');
